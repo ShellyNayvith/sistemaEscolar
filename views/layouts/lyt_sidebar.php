@@ -52,6 +52,48 @@ use yii\bootstrap4\Html;
                         ['/tuestatu/index'],
                         ['class' => 'collapse-item']
                     ); ?>
+                    
+                    <?= Html::a(
+                        'Categoría',
+                        ['/categoria'],
+                        ['class' => 'collapse-item']
+                    ); ?>
+                    
+                    <?= Html::a(
+                        'Estudiante',
+                        ['/estudiante'],
+                        ['class' => 'collapse-item']
+                    ); ?>
+
+                    <?= Html::a(
+                        'Carrera',
+                        ['/carrera'],
+                        ['class' => 'collapse-item']
+                    ); ?>
+
+                    <?= Html::a(
+                        'Coordinación',
+                        ['/coodinacion'],
+                        ['class' => 'collapse-item']
+                    ); ?>
+                    
+                    <?= Html::a(
+                        'Curso',
+                        ['/curso'],
+                        ['class' => 'collapse-item']
+                    ); ?>
+                    
+                    <?= Html::a(
+                        'Curso Detalle',
+                        ['/cursodetalle'],
+                        ['class' => 'collapse-item']
+                    ); ?>
+                    
+                    <?= Html::a(
+                        'Profesor',
+                        ['/profesor'],
+                        ['class' => 'collapse-item']
+                    ); ?>
                    
                
                 
